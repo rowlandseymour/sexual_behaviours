@@ -3,7 +3,7 @@ library(pROC)
 
 # Read In Data ------------------------------------------------------------
 
-questionnaire <- read.csv("results-for-sexual-health-2020-03-11-1742.csv")
+questionnaire <- read.csv("Uk_results.csv")
 questionnaire <-na.omit(questionnaire)
 View(questionnaire)
 
